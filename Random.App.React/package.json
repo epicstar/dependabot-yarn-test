@@ -160,7 +160,7 @@
     "redux": "^5.0.1",
     "regenerator-runtime": "^0.14.1",
     "set-interval-async": "^3.0.3",
-    "yup": "^1.4.0"
+    "yup": "^1.6.0"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
