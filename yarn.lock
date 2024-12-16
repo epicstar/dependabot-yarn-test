@@ -17584,7 +17584,7 @@ __metadata:
     redux: "npm:^5.0.1"
     regenerator-runtime: "npm:^0.14.1"
     sass: "npm:^1.81.0"
-    sass-loader: "npm:^16.0.3"
+    sass-loader: "npm:^16.0.4"
     set-interval-async: "npm:^3.0.3"
     simple-git-hooks: "npm:^2.11.1"
     source-map-loader: "npm:^5.0.0"
@@ -17681,7 +17681,7 @@ __metadata:
     regenerator-runtime: "npm:^0.14.1"
     reselect: "npm:^5.1.1"
     sass: "npm:^1.81.0"
-    sass-loader: "npm:^16.0.3"
+    sass-loader: "npm:^16.0.4"
     simple-git-hooks: "npm:^2.11.1"
     source-map-loader: "npm:^5.0.0"
     style-loader: "npm:^4.0.0"
@@ -17842,7 +17842,7 @@ __metadata:
     redux: "npm:^5.0.1"
     regenerator-runtime: "npm:^0.14.1"
     sass: "npm:^1.81.0"
-    sass-loader: "npm:^16.0.3"
+    sass-loader: "npm:^16.0.4"
     set-interval-async: "npm:^3.0.3"
     simple-git-hooks: "npm:^2.11.1"
     source-map-loader: "npm:^5.0.0"
@@ -17948,7 +17948,7 @@ __metadata:
     prettier: "npm:^3.4.1"
     react-refresh: "npm:0.14.2"
     sass: "npm:^1.81.0"
-    sass-loader: "npm:^16.0.3"
+    sass-loader: "npm:^16.0.4"
     simple-git-hooks: "npm:^2.11.1"
     source-map-loader: "npm:^5.0.0"
     style-loader: "npm:^4.0.0"
@@ -19066,9 +19066,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:^16.0.3":
-  version: 16.0.3
-  resolution: "sass-loader@npm:16.0.3"
+"sass-loader@npm:^16.0.4":
+  version: 16.0.4
+  resolution: "sass-loader@npm:16.0.4"
   dependencies:
     neo-async: "npm:^2.6.2"
   peerDependencies:
@@ -19088,7 +19088,7 @@ __metadata:
       optional: true
     webpack:
       optional: true
-  checksum: 10c0/2dc188dd0d5276ed0251eee7f245848ccf9df6ec121227462403f322c17a3dbe100fb60d47968f078e585e4aced452eb7fa1a8e55b415d5de3151fa1bbf2d561
+  checksum: 10c0/d57c5fa35620e9022cfa3e5d49f3f9b3e54fb8b2fa9d021c10fe26c8c2f77103e038b6540eb20123a6f73aef23d2beb04033d3b7772588ca3f3c0ba2a4ee40ac
   languageName: node
   linkType: hard
 
