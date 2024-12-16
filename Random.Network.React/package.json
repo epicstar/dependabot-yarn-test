@@ -85,7 +85,7 @@
         "lint-staged": "^15.2.10",
         "mini-css-extract-plugin": "^2.9.2",
         "postcss-loader": "^8.1.1",
-        "prettier": "^3.4.1",
+        "prettier": "^3.4.2",
         "react-refresh": "0.14.2",
         "sass": "^1.81.0",
         "sass-loader": "^16.0.3",
