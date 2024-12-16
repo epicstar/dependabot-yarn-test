@@ -51,7 +51,7 @@
     "@mui/x-codemod": "^7.21.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
     "@testing-library/dom": "^10.4.0",
-    "@testing-library/react": "^16.0.1",
+    "@testing-library/react": "^16.1.0",
     "@truefit/wall-e": "^0.0.6",
     "@types/babel__core": "^7.20.5",
     "@types/babel__preset-env": "^7.9.7",
