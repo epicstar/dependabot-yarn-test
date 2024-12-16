@@ -1,0 +1,85 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  # Maintain dependencies for frontend + device code
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      redux-dependencies:
+        patterns:
+          - "*redux*"
+      application-insights-dependencies:
+        patterns:
+          - "@microsoft/applicationinsights-*"
+      babel-dependencies:
+        patterns:
+          - "@babel*"
+      date-dependencies:
+        patterns:
+          - "*date*"
+      mui-dependencies:
+        patterns:
+          - "@mui/*"
+          - "@emotion/*"
+        exclude-patterns:
+          - "@mui/x-*"
+      react-pdf-viewer-dependenies:
+        patterns:
+          - "@react-pdf-viewer/*"
+          - "pdfjs-dist"
+      react-query-dependencies:
+        patterns:
+          - "@tanstack/react-query*"
+      test-dependencies:
+        dependency-type: "development"
+        patterns:
+          - "*jest*"
+          - "*test*"
+          - "undici"
+          - "@testing-library/*"
+      eslint-dependencies:
+        dependency-type: "development"
+        patterns:
+          - "eslint"
+          - "typescript"
+          - "*eslint*"
+          - "*typescript*"
+          - "@typescript-eslint/*"
+        exclude-patterns:
+          - "eslint-plugin-jest"
+      react-dependencies:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "react-router-dom"
+          - "@types/react"
+          - "@types/react-dom"
+    ignore:
+      # We will at some point abandon the time picker
+      - dependency-name: "@viselect/react"
+      # need to update our eslint config to the new version
+      - dependency-name: "eslint"
+        update-types: ["version-update:semver-major"]
+      # only used for pollyfills in jest
+      - dependency-name: "undici"
+        update-types: ["version-update:semver-major"]
+      # need to manually update
+      - dependency-name: "pdfjs-dist"
+      - dependency-name: "webpack-dev-server"
+        update-types: ["version-update:semver-major"]
+      # ignore bc of Player.Node; we just have to manually update
+      - dependency-name: "@types/node"
+      - dependency-name: "@typescript-eslint/eslint-plugin"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@typescript-eslint/parser"
+        update-types: ["version-update:semver-major"]
+      # remove when we update to react-router-dom v7: https://dev.azure.com/pwcampbell/BrandVisionHD/_workitems/edit/2993
+      - dependency-name: 'react-router-dom'
+        update-types: ["version-update:semver-major"]
+    open-pull-requests-limit: 20
