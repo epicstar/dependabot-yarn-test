@@ -1,0 +1,14 @@
+trigger: none # Disable CI trigger
+
+pool:
+  vmImage: 'ubuntu-latest' # requires macos or ubuntu (windows is not supported)
+
+jobs:
+- job: Dependabot_Test
+  displayName: Dependabot Test
+  timeoutInMinutes: 180
+  steps:
+  - task: dependabot@2
+    inputs:
+      abandonUnwantedPullRequests: false
+      setAutoComplete: true

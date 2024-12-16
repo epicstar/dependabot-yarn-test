@@ -1,0 +1,47 @@
+{
+    "name": "random-name-shared-react",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Shared React components for random-nameHD®",
+    "author": "Random Solutions",
+    "license": "UNLICENSED",
+    "scripts": {
+        "type-check": "yarn run tsc --skipLibCheck",
+        "lint": "eslint '**/*.{ts,tsx}' --color --fix --parser-options: \"{project: './tsconfig.json'}\"",
+        "test": "jest -c=../jest.config.js --selectProjects random-name-shared-react"
+    },
+    "browserslist": [
+        "defaults"
+    ],
+    "lint-staged": {
+        "*.{ts,tsx}": [
+            "eslint --color --fix",
+            "prettier --write",
+            "bash -c yarn run type-check"
+        ],
+        "*.scss": [
+            "prettier --write"
+        ]
+    },
+    "peerDependencies": {
+        "@emotion/react": "^11.7.0",
+        "@emotion/styled": "^11.6.0",
+        "@mui/icons-material": "^6.1.0",
+        "@mui/material": "^6.1.0",
+        "axios": "^1.6.2",
+        "core-js": "^3.19.1",
+        "date-fns": "^4.0.0",
+        "email-validator": "^2.0.0",
+        "history": "^5.1.0",
+        "lodash": "^4.17.21",
+        "notistack": "^3.0.1",
+        "postcss": "^8.4.4",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-router-dom": "^6.0.2",
+        "yup": "^1.0.0"
+    },
+    "simple-git-hooks": {
+        "pre-commit": "npx lint-staged"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "random-name-player-keyboard",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "start": "vite",
+        "build": "tsc -b && vite build",
+        "build-dev": "tsc -b && vite build --mode development",
+        "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.13.5",
+        "@emotion/styled": "^11.13.5",
+        "@fontsource-variable/roboto-flex": "^5.1.0",
+        "@mui/icons-material": "^6.1.9",
+        "@mui/material": "^6.1.9",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-simple-keyboard": "^3.8.24"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "@typescript-eslint/eslint-plugin": "^7.18.0",
+        "@typescript-eslint/parser": "^7.18.0",
+        "@vitejs/plugin-react": "^4.3.4",
+        "eslint": "^8.57.1",
+        "eslint-plugin-react-hooks": "^5.0.0",
+        "eslint-plugin-react-refresh": "^0.4.16",
+        "sass": "^1.81.0",
+        "typescript": "^5.7.2",
+        "unplugin-fonts": "^1.1.1",
+        "vite": "^5.4.11"
+    }
+}
