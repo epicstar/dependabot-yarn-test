@@ -92,7 +92,7 @@
         "jest-websocket-mock": "^2.5.0",
         "lint-staged": "^15.2.10",
         "mini-css-extract-plugin": "^2.9.2",
-        "msw": "^2.4.1",
+        "msw": "^2.7.0",
         "postcss-loader": "^8.1.1",
         "prettier": "^3.4.1",
         "react-refresh": "0.14.2",
