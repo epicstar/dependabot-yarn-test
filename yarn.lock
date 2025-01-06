@@ -17714,7 +17714,7 @@ __metadata:
     eslint-plugin-react-refresh: "npm:^0.4.16"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
-    react-simple-keyboard: "npm:^3.8.24"
+    react-simple-keyboard: "npm:^3.8.33"
     sass: "npm:^1.81.0"
     typescript: "npm:^5.7.2"
     unplugin-fonts: "npm:^1.1.1"
@@ -18263,13 +18263,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-simple-keyboard@npm:^3.8.24":
-  version: 3.8.24
-  resolution: "react-simple-keyboard@npm:3.8.24"
+"react-simple-keyboard@npm:^3.8.33":
+  version: 3.8.33
+  resolution: "react-simple-keyboard@npm:3.8.33"
   peerDependencies:
-    react: ^16.0.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: 10c0/a458383f9c20c7de432e42d2e11bd88e4eec0b10dffd52b8a97b9a15a47fc40f449bc23c90d070043edbb431a4bdf9d220897d1304b85ded26e1313d4217df2a
+    react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/e86c82233ce804f611b5201bd555fdb8fb502047b0432c154da1c7a8e050a0b8080b9e8f75363076b7ede9743229976b24cca36763485ff53fd05f45ce3fed18
   languageName: node
   linkType: hard
 
