@@ -4433,9 +4433,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/x-codemod@npm:^7.21.0":
-  version: 7.21.0
-  resolution: "@mui/x-codemod@npm:7.21.0"
+"@mui/x-codemod@npm:^7.23.6":
+  version: 7.23.6
+  resolution: "@mui/x-codemod@npm:7.23.6"
   dependencies:
     "@babel/core": "npm:^7.25.8"
     "@babel/runtime": "npm:^7.25.7"
@@ -4444,7 +4444,7 @@ __metadata:
     yargs: "npm:^17.7.2"
   bin:
     x-codemod: codemod.js
-  checksum: 10c0/c7333dedfcbebc274a153581d44fd9115dabfb8a37184c633ff988c6c684db45c5a496e358db37fbbd6d2723908a299dba5474627b8400b62fc0183f21b216c2
+  checksum: 10c0/cada2068a6418cb4d8b93746eb5dd471c99e2879085235c137f3df389da19da2ee86daac123753705f6c2a5caa80d5dab22b6ed9f9a9fbba95ad787f87dff166
   languageName: node
   linkType: hard
 
@@ -17495,7 +17495,7 @@ __metadata:
     "@mui/lab": "npm:6.0.0-beta.17"
     "@mui/material": "npm:^6.1.9"
     "@mui/system": "npm:^6.1.9"
-    "@mui/x-codemod": "npm:^7.21.0"
+    "@mui/x-codemod": "npm:^7.23.6"
     "@mui/x-data-grid": "npm:^7.23.0"
     "@mui/x-date-pickers": "npm:^7.23.0"
     "@mui/x-tree-view": "npm:^7.23.0"
