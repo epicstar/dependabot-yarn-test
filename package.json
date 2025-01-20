@@ -66,7 +66,7 @@
         "eslint-config-airbnb-typescript": "^18.0.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-import": "^2.31.0",
-        "eslint-plugin-jest": "^28.9.0",
+        "eslint-plugin-jest": "^28.11.0",
         "eslint-plugin-jsx-a11y": "^6.10.2",
         "eslint-plugin-prettier": "^5.2.1",
         "eslint-plugin-react": "^7.37.2",
@@ -96,7 +96,7 @@
         "ts-node": "^10.9.2",
         "typescript": "^5.7.2",
         "typesync": "^0.13.5-0",
-        "undici": "^5.28.4",
+        "undici": "^5.28.5",
         "webpack": "^5.96.1",
         "webpack-cli": "^5.1.4",
         "webpack-hot-middleware": "^2.26.1"
