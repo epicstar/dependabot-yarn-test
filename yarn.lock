@@ -3539,12 +3539,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@internationalized/date@npm:^3.6.0":
-  version: 3.6.0
-  resolution: "@internationalized/date@npm:3.6.0"
+"@internationalized/date@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "@internationalized/date@npm:3.7.0"
   dependencies:
     "@swc/helpers": "npm:^0.5.0"
-  checksum: 10c0/64404d8e20f46a53d77b49e62102fb6d1fa5ee80d35b8d8e8c4129e968a679330bc897131b6ba27e5777da6549dfa2eaa72d123adb23e5bfd4e52ab3f07d38da
+  checksum: 10c0/4d0979dd49f0f979169073afa2b44ce8ae941407e22d4caba069e26e9d9a0c6d29fc11fb50d5e6fcad351f0f9b180e21cbd440fd4238e899719f5d3c84829985
   languageName: node
   linkType: hard
 
@@ -4474,13 +4474,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/x-date-pickers@npm:^7.23.0":
-  version: 7.23.0
-  resolution: "@mui/x-date-pickers@npm:7.23.0"
+"@mui/x-date-pickers@npm:^7.25.0":
+  version: 7.25.0
+  resolution: "@mui/x-date-pickers@npm:7.25.0"
   dependencies:
     "@babel/runtime": "npm:^7.25.7"
     "@mui/utils": "npm:^5.16.6 || ^6.0.0"
-    "@mui/x-internals": "npm:7.23.0"
+    "@mui/x-internals": "npm:7.25.0"
     "@types/react-transition-group": "npm:^4.4.11"
     clsx: "npm:^2.1.1"
     prop-types: "npm:^15.8.1"
@@ -4491,7 +4491,7 @@ __metadata:
     "@mui/material": ^5.15.14 || ^6.0.0
     "@mui/system": ^5.15.14 || ^6.0.0
     date-fns: ^2.25.0 || ^3.2.0 || ^4.0.0
-    date-fns-jalali: ^2.13.0-0 || ^3.2.0-0
+    date-fns-jalali: ^2.13.0-0 || ^3.2.0-0 || ^4.0.0-0
     dayjs: ^1.10.7
     luxon: ^3.0.2
     moment: ^2.29.4
@@ -4518,7 +4518,7 @@ __metadata:
       optional: true
     moment-jalaali:
       optional: true
-  checksum: 10c0/e9fb18d8d4d3402713928c2ac5a78689b52a1c27cce858b8a5a30e17dfeb9274b73084a6a85244483d272985d6440a5e35b85a6893d163761ccf48407a8db756
+  checksum: 10c0/26db2f4423c51bb5f1d2ed4b7a49c5f5c483b6449fd4fb340d9136aea8f0f56f4879a2c93e2686627697eb81d86253fbd11c6eb66f84e810cfff0809d80c6076
   languageName: node
   linkType: hard
 
@@ -4531,6 +4531,18 @@ __metadata:
   peerDependencies:
     react: ^17.0.0 || ^18.0.0 || ^19.0.0
   checksum: 10c0/47d5efad1b58b2c316e7d9e61cfe536b3c0a16f6d3ff4f371c8a29aa7c598de136f328958f6b44f6401b2c96b5867872f631debb51fb9db6f3493181f43deb2a
+  languageName: node
+  linkType: hard
+
+"@mui/x-internals@npm:7.25.0":
+  version: 7.25.0
+  resolution: "@mui/x-internals@npm:7.25.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.25.7"
+    "@mui/utils": "npm:^5.16.6 || ^6.0.0"
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/20110dc414c45fb8d9645f6f301558ad171cded1b5c44482460606ea14c4bcc3403e158d3a6e7fe6f8a2fc5327ee02cf8859d1149c65aa3a64d4b4c8bf1b48c1
   languageName: node
   linkType: hard
 
@@ -17490,14 +17502,14 @@ __metadata:
     "@emotion/react": "npm:^11.13.5"
     "@emotion/styled": "npm:^11.13.5"
     "@hookform/resolvers": "npm:^3.9.1"
-    "@internationalized/date": "npm:^3.6.0"
+    "@internationalized/date": "npm:^3.7.0"
     "@mui/icons-material": "npm:^6.1.9"
     "@mui/lab": "npm:6.0.0-beta.17"
     "@mui/material": "npm:^6.1.9"
     "@mui/system": "npm:^6.1.9"
     "@mui/x-codemod": "npm:^7.21.0"
     "@mui/x-data-grid": "npm:^7.23.0"
-    "@mui/x-date-pickers": "npm:^7.23.0"
+    "@mui/x-date-pickers": "npm:^7.25.0"
     "@mui/x-tree-view": "npm:^7.23.0"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.15"
     "@react-pdf-viewer/core": "npm:^3.12.0"
@@ -17617,7 +17629,7 @@ __metadata:
     "@mui/lab": "npm:6.0.0-beta.17"
     "@mui/material": "npm:^6.1.9"
     "@mui/system": "npm:^6.1.9"
-    "@mui/x-date-pickers": "npm:^7.23.0"
+    "@mui/x-date-pickers": "npm:^7.25.0"
     "@pmmmwh/react-refresh-webpack-plugin": "npm:^0.5.15"
     "@tanstack/react-query": "npm:^5.62.0"
     "@truefit/wall-e": "npm:^0.0.6"
