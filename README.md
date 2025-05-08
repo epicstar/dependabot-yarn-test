@@ -3,6 +3,8 @@ Dependabot Yarn v4 Dependabot Failure Reproduction
 
 The purpose of this repo is to show, with a minimum repo, that Dependabot is running fine on Github, but not with the TingleSoftware Azure Devops Dependabot pipeline.
 
+Please see: https://github.com/tinglesoftware/dependabot-azure-devops/issues/1518
+
 # Prerequisites
 
 1. `nodejs` (LTS Preferred?)
