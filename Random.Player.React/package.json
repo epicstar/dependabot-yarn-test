@@ -97,7 +97,7 @@
         "prettier": "^3.4.1",
         "react-refresh": "0.14.2",
         "sass": "^1.81.0",
-        "sass-loader": "^16.0.3",
+        "sass-loader": "^16.0.5",
         "simple-git-hooks": "^2.11.1",
         "source-map-loader": "^5.0.0",
         "style-loader": "^4.0.0",
