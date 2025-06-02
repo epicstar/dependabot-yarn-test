@@ -48,7 +48,7 @@
     "@babel/preset-env": "^7.26.0",
     "@babel/preset-react": "^7.25.9",
     "@babel/preset-typescript": "^7.26.0",
-    "@mui/x-codemod": "^7.21.0",
+    "@mui/x-codemod": "^8.5.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.0.1",
