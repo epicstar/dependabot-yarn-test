@@ -72,7 +72,7 @@
     "@types/regenerator-runtime": "^0.13.8",
     "@types/sass-loader": "^8.0.9",
     "@types/webpack": "^5.28.5",
-    "@types/webpack-env": "^1.18.5",
+    "@types/webpack-env": "^1.18.8",
     "@types/webpack-hot-middleware": "^2.25.9",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
